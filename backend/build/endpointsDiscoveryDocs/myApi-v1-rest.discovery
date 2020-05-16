@@ -20,10 +20,10 @@
  "id": "myApi:v1",
  "kind": "discovery#restDescription",
  "methods": {
-  "tellJoke": {
-   "httpMethod": "POST",
-   "id": "myApi.tellJoke",
-   "path": "tellJoke",
+  "getJoke": {
+   "httpMethod": "GET",
+   "id": "myApi.getJoke",
+   "path": "mybean",
    "response": {
     "$ref": "MyBean"
    },
